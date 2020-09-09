@@ -1,0 +1,24 @@
+<resources>
+
+    <style name="AppTheme" parent="BaseTheme" />
+
+    <style name="BaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">#FFFFFF</item>
+        <item name="colorPrimaryDark">@color/marker_secondary</item>
+        <item name="colorControlHighlight">#FF9800</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="EditText.White" parent="@style/AppTheme">
+        <item name="colorControlActivated">@android:color/widget_edittext_dark</item>
+        <item name="colorControlHighlight">@android:color/primary_text_light</item>
+        <item name="colorControlNormal">@android:color/black</item>
+    </style>
+
+    <style name="AppThemeSetting" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/grey_soft</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+</resources>
